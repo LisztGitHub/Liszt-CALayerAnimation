@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286314DE1DAC7FAF001C963B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314DD1DAC7FAF001C963B /* main.m */; };
+		286314E71DAC7FAF001C963B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286314E51DAC7FAF001C963B /* Main.storyboard */; };
+		286314E91DAC7FAF001C963B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286314E81DAC7FAF001C963B /* Assets.xcassets */; };
+		286314EC1DAC7FAF001C963B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286314EA1DAC7FAF001C963B /* LaunchScreen.storyboard */; };
+		286314F71DAC7FAF001C963B /* Liszt_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314F61DAC7FAF001C963B /* Liszt_AnimationTests.m */; };
+		286315021DAC7FAF001C963B /* Liszt_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315011DAC7FAF001C963B /* Liszt_AnimationUITests.m */; };
+		286315111DAC7FE1001C963B /* LisztAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315101DAC7FE1001C963B /* LisztAppDelegate.m */; };
+		286315141DAC8025001C963B /* LisztViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315131DAC8025001C963B /* LisztViewController.m */; };
+		286315191DAC810D001C963B /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315181DAC810D001C963B /* CALayer+Animation.m */; };
+		2863151B1DAC99DD001C963B /* animaiton_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2863151A1DAC99DD001C963B /* animaiton_image.jpg */; };
+		2863151D1DAC9A31001C963B /* animation_image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2863151C1DAC9A31001C963B /* animation_image1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286314F31DAC7FAF001C963B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286314D11DAC7FAF001C963B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286314D81DAC7FAF001C963B;
+			remoteInfo = Liszt_Animation;
+		};
+		286314FE1DAC7FAF001C963B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286314D11DAC7FAF001C963B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286314D81DAC7FAF001C963B;
+			remoteInfo = Liszt_Animation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286314D91DAC7FAF001C963B /* Liszt_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liszt_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286314DD1DAC7FAF001C963B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		286314E61DAC7FAF001C963B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286314E81DAC7FAF001C963B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286314EB1DAC7FAF001C963B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286314ED1DAC7FAF001C963B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286314F21DAC7FAF001C963B /* Liszt_AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Liszt_AnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286314F61DAC7FAF001C963B /* Liszt_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Liszt_AnimationTests.m; sourceTree = "<group>"; };
+		286314F81DAC7FAF001C963B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286314FD1DAC7FAF001C963B /* Liszt_AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Liszt_AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286315011DAC7FAF001C963B /* Liszt_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Liszt_AnimationUITests.m; sourceTree = "<group>"; };
+		286315031DAC7FAF001C963B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2863150F1DAC7FE1001C963B /* LisztAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztAppDelegate.h; sourceTree = "<group>"; };
+		286315101DAC7FE1001C963B /* LisztAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztAppDelegate.m; sourceTree = "<group>"; };
+		286315121DAC8025001C963B /* LisztViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztViewController.h; sourceTree = "<group>"; };
+		286315131DAC8025001C963B /* LisztViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztViewController.m; sourceTree = "<group>"; };
+		286315171DAC810D001C963B /* CALayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
+		286315181DAC810D001C963B /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
+		2863151A1DAC99DD001C963B /* animaiton_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animaiton_image.jpg; sourceTree = "<group>"; };
+		2863151C1DAC9A31001C963B /* animation_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_image1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286314D61DAC7FAF001C963B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314EF1DAC7FAF001C963B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314FA1DAC7FAF001C963B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286314D01DAC7FAF001C963B = {
+			isa = PBXGroup;
+			children = (
+				286314DB1DAC7FAF001C963B /* Liszt_Animation */,
+				286314F51DAC7FAF001C963B /* Liszt_AnimationTests */,
+				286315001DAC7FAF001C963B /* Liszt_AnimationUITests */,
+				286314DA1DAC7FAF001C963B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286314DA1DAC7FAF001C963B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286314D91DAC7FAF001C963B /* Liszt_Animation.app */,
+				286314F21DAC7FAF001C963B /* Liszt_AnimationTests.xctest */,
+				286314FD1DAC7FAF001C963B /* Liszt_AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286314DB1DAC7FAF001C963B /* Liszt_Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2863151C1DAC9A31001C963B /* animation_image1.png */,
+				2863151A1DAC99DD001C963B /* animaiton_image.jpg */,
+				286315161DAC80FF001C963B /* CALayer+Animation */,
+				2863150F1DAC7FE1001C963B /* LisztAppDelegate.h */,
+				286315101DAC7FE1001C963B /* LisztAppDelegate.m */,
+				286315121DAC8025001C963B /* LisztViewController.h */,
+				286315131DAC8025001C963B /* LisztViewController.m */,
+				286314E51DAC7FAF001C963B /* Main.storyboard */,
+				286314E81DAC7FAF001C963B /* Assets.xcassets */,
+				286314EA1DAC7FAF001C963B /* LaunchScreen.storyboard */,
+				286314ED1DAC7FAF001C963B /* Info.plist */,
+				286314DC1DAC7FAF001C963B /* Supporting Files */,
+			);
+			path = Liszt_Animation;
+			sourceTree = "<group>";
+		};
+		286314DC1DAC7FAF001C963B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286314DD1DAC7FAF001C963B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		286314F51DAC7FAF001C963B /* Liszt_AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				286314F61DAC7FAF001C963B /* Liszt_AnimationTests.m */,
+				286314F81DAC7FAF001C963B /* Info.plist */,
+			);
+			path = Liszt_AnimationTests;
+			sourceTree = "<group>";
+		};
+		286315001DAC7FAF001C963B /* Liszt_AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				286315011DAC7FAF001C963B /* Liszt_AnimationUITests.m */,
+				286315031DAC7FAF001C963B /* Info.plist */,
+			);
+			path = Liszt_AnimationUITests;
+			sourceTree = "<group>";
+		};
+		286315161DAC80FF001C963B /* CALayer+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				286315171DAC810D001C963B /* CALayer+Animation.h */,
+				286315181DAC810D001C963B /* CALayer+Animation.m */,
+			);
+			path = "CALayer+Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286314D81DAC7FAF001C963B /* Liszt_Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286315061DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_Animation" */;
+			buildPhases = (
+				286314D51DAC7FAF001C963B /* Sources */,
+				286314D61DAC7FAF001C963B /* Frameworks */,
+				286314D71DAC7FAF001C963B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liszt_Animation;
+			productName = Liszt_Animation;
+			productReference = 286314D91DAC7FAF001C963B /* Liszt_Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286314F11DAC7FAF001C963B /* Liszt_AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286315091DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_AnimationTests" */;
+			buildPhases = (
+				286314EE1DAC7FAF001C963B /* Sources */,
+				286314EF1DAC7FAF001C963B /* Frameworks */,
+				286314F01DAC7FAF001C963B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286314F41DAC7FAF001C963B /* PBXTargetDependency */,
+			);
+			name = Liszt_AnimationTests;
+			productName = Liszt_AnimationTests;
+			productReference = 286314F21DAC7FAF001C963B /* Liszt_AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286314FC1DAC7FAF001C963B /* Liszt_AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2863150C1DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_AnimationUITests" */;
+			buildPhases = (
+				286314F91DAC7FAF001C963B /* Sources */,
+				286314FA1DAC7FAF001C963B /* Frameworks */,
+				286314FB1DAC7FAF001C963B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286314FF1DAC7FAF001C963B /* PBXTargetDependency */,
+			);
+			name = Liszt_AnimationUITests;
+			productName = Liszt_AnimationUITests;
+			productReference = 286314FD1DAC7FAF001C963B /* Liszt_AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286314D11DAC7FAF001C963B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Liszt高级研发群:98787555";
+				TargetAttributes = {
+					286314D81DAC7FAF001C963B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					286314F11DAC7FAF001C963B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286314D81DAC7FAF001C963B;
+					};
+					286314FC1DAC7FAF001C963B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286314D81DAC7FAF001C963B;
+					};
+				};
+			};
+			buildConfigurationList = 286314D41DAC7FAF001C963B /* Build configuration list for PBXProject "Liszt_Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286314D01DAC7FAF001C963B;
+			productRefGroup = 286314DA1DAC7FAF001C963B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286314D81DAC7FAF001C963B /* Liszt_Animation */,
+				286314F11DAC7FAF001C963B /* Liszt_AnimationTests */,
+				286314FC1DAC7FAF001C963B /* Liszt_AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286314D71DAC7FAF001C963B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2863151B1DAC99DD001C963B /* animaiton_image.jpg in Resources */,
+				286314EC1DAC7FAF001C963B /* LaunchScreen.storyboard in Resources */,
+				286314E91DAC7FAF001C963B /* Assets.xcassets in Resources */,
+				286314E71DAC7FAF001C963B /* Main.storyboard in Resources */,
+				2863151D1DAC9A31001C963B /* animation_image1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314F01DAC7FAF001C963B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314FB1DAC7FAF001C963B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286314D51DAC7FAF001C963B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286315141DAC8025001C963B /* LisztViewController.m in Sources */,
+				286315111DAC7FE1001C963B /* LisztAppDelegate.m in Sources */,
+				286315191DAC810D001C963B /* CALayer+Animation.m in Sources */,
+				286314DE1DAC7FAF001C963B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314EE1DAC7FAF001C963B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286314F71DAC7FAF001C963B /* Liszt_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286314F91DAC7FAF001C963B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286315021DAC7FAF001C963B /* Liszt_AnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286314F41DAC7FAF001C963B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286314D81DAC7FAF001C963B /* Liszt_Animation */;
+			targetProxy = 286314F31DAC7FAF001C963B /* PBXContainerItemProxy */;
+		};
+		286314FF1DAC7FAF001C963B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286314D81DAC7FAF001C963B /* Liszt_Animation */;
+			targetProxy = 286314FE1DAC7FAF001C963B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286314E51DAC7FAF001C963B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286314E61DAC7FAF001C963B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286314EA1DAC7FAF001C963B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286314EB1DAC7FAF001C963B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286315041DAC7FAF001C963B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286315051DAC7FAF001C963B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286315071DAC7FAF001C963B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286315081DAC7FAF001C963B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2863150A1DAC7FAF001C963B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_AnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liszt_Animation.app/Liszt_Animation";
+			};
+			name = Debug;
+		};
+		2863150B1DAC7FAF001C963B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_AnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liszt_Animation.app/Liszt_Animation";
+			};
+			name = Release;
+		};
+		2863150D1DAC7FAF001C963B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_AnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Liszt_Animation;
+			};
+			name = Debug;
+		};
+		2863150E1DAC7FAF001C963B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = Liszt_AnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Liszt-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Liszt_Animation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286314D41DAC7FAF001C963B /* Build configuration list for PBXProject "Liszt_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286315041DAC7FAF001C963B /* Debug */,
+				286315051DAC7FAF001C963B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286315061DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286315071DAC7FAF001C963B /* Debug */,
+				286315081DAC7FAF001C963B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286315091DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2863150A1DAC7FAF001C963B /* Debug */,
+				2863150B1DAC7FAF001C963B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2863150C1DAC7FAF001C963B /* Build configuration list for PBXNativeTarget "Liszt_AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2863150D1DAC7FAF001C963B /* Debug */,
+				2863150E1DAC7FAF001C963B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286314D11DAC7FAF001C963B /* Project object */;
+}
