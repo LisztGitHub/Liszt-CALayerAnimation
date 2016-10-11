@@ -1,6 +1,4 @@
 # Liszt-CALayerAnimation
-###只是显示图片，这里用的是相对路径
-
 <img src="https://github.com/LisztGitHub/Liszt-CALayerAnimation/blob/master/Liszt.gif?raw=true" />
 # 
     //
